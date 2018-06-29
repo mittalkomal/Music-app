@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Music App</string>
+    <string name="overview">This is home page of this app.Click on the variety of music you want to hear.It will take us to respective activities.Also contain payment and settings button.</string>
+    <string name="settings">Payment And Settings</string>
+    <string name="menu1">Sufi Music</string>
+    <string name="menu2">Pop</string>
+    <string name="menu3">Gazals</string>
+    <string name="sufi">Sufi</string>
+    <string name="pop">Pop</string>
+    <string name="all">All</string>
+    <string name="sufi1">Kun Faya Kun</string>
+    <string name="sufi2">Alaa Hoo</string>
+    <string name="sufi3">Teri Deewani</string>
+    <string name="pop1">Thriller</string>
+    <string name="pop2">Like A Player</string>
+    <string name="pop3">When Doves Cry</string>
+    <string name="gazal1">Gham Ka Khazana</string>
+    <string name="gazal2">Aah ko chahiye ek umr asar hote tak </string>
+    <string name="gazal3">Aap jin ke qarib hote hain</string>
+    <string name="overview3">The songs will play when you click on them</string>
+    <string name="overview4">PAYMENT ACTIVITY\n\nWe can add a Pay with PayPal button to an Android app by using the PayPal Mobile Payment Libraries (MPL).It will enable one touch and secure payment infrastructure to your app.After payment control will be back to the app </string>
+    <string name="overview5">HOMEPAGE</string>
+    <string name="all_overview">ALL_ACTIVITY\n\nThis activity display music of all genre.Buttons are there to move to different activities.Music will be played when You click on them</string>
+    <string name="sufi_overview">SUFI ACTIVITY\n\nThis activity contains all famous sufi music.Clicking on particular music plays the music.\nWe can use MediaPlyer APIs to play music which consists of MediaPlayer class.With the help of this we can play music from local resources as well as via online streaming</string>
+    <string name="gazal_overview">GAZAL ACTIVITY\n\nIt contains famous gazals,clicking on them plays the paricular music.There are buttons to navigate to different activities without going back to home page</string>
+    <string name="pop_overview">POP ACTIVITY\n\nThis activity contains pop music.You can play them by clicking on them.Buttons to navigate other activities\nWe can also add feature to share music with help of inline intents </string>
+</resources>

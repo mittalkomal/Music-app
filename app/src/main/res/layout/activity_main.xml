@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.komal.mymusicapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="@string/overview5"
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/overview"
+        style="@style/description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/overview" />
+
+    <TextView
+        android:id="@+id/sufi"
+        style="@style/menuItemText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#BA68C8"
+        android:gravity="center_vertical"
+        android:text="@string/menu1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/pop"
+        style="@style/menuItemText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#EC407A"
+        android:gravity="center_vertical"
+        android:text="@string/menu2"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/gazal"
+        style="@style/menuItemText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FB8C00"
+        android:gravity="center_vertical"
+        android:text="@string/menu3"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/all"
+        style="@style/menuItemText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F44336"
+        android:gravity="center_vertical"
+        android:text="@string/all"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.5"
+        android:text="Payment And Settings(Click Here)"
+        android:textColor="#111111"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
